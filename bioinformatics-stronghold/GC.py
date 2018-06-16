@@ -6,11 +6,7 @@
 # ">Rosalind_xxxx" where xxxx will be between 0000 and 9999
 
 # given: at most 10 DNA strings
-# return: ID of string with highest GC-content and GC content
-
-## want to create dict w key: Rosalind_xxxx and value: GC content
-## or special max func...
-## make a few functions why not
+# return: ID of string with highest GC-content and GC-content
 
 def max_gc_content(gc_file):
     lines = list(open(gc_file, "r"))
