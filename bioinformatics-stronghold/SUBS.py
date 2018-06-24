@@ -1,6 +1,9 @@
 # Note: Rosalind uses 1-based numbering, which is accounted for
 #       in my solution.
 
+# Note: Instead of using the .find method, I wanted to implement this
+#       from scratch, which is why the code is less concise.
+
 def find_motif(string, substring):
     j, k, indices = 0, 0, ''
     while k < len(string):
