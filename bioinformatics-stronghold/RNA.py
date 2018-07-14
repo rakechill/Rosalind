@@ -8,4 +8,4 @@ def make_rna(dna):
             rna = rna + 'U'
         else:
             rna = rna + nt
-    return rna
+    print(rna)
